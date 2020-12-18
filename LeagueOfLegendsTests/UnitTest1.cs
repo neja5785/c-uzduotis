@@ -18,7 +18,7 @@ namespace LeagueOfLegendsTests
             var testProv = new Provider();
             MasteryChamps masteryChamps = new MasteryChamps() { championId = 1 };
             Champion champion = new Champion() { key = 1, name = "Annie" };
-            Champion champion1 = new Champion() { key = 2, name = "Zed" };
+            Champion champion1 = new Champion() { key = 2, name = "Zed" }; 
             /*AllChampions champRoot = new AllChampions() { data = { { "Annie", champion } } };*/
             testProv.allChampions = new AllChampions() { data = new Dictionary<string, Champion>() { { "Annie", champion }, { "Zed", champion1 } } };
 

@@ -418,7 +418,7 @@ namespace WindowsFormsApp1
             // columnHeader2
             // 
             this.columnHeader2.Text = "Win/Loss";
-            this.columnHeader2.Width = 90;
+            this.columnHeader2.Width = 95;
             // 
             // columnHeader3
             // 
